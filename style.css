@@ -46,6 +46,19 @@ button {
 
 .task input[type="checkbox"] {
   margin-right: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 50%; /* Make the checkbox appear as a circle */
+  cursor: pointer;
+}
+
+.task input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .completed {
