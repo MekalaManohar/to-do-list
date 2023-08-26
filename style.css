@@ -1,0 +1,53 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.parent-box {
+  background-color: lightgrey;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-box {
+  background-color: white;
+  height: auto;
+  min-width: 500px;
+  min-height: 500px;
+  border-radius: 5px;
+  width: auto;
+  padding: 20px;
+}
+input[type="text"] {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+#tasks {
+  margin-top: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}

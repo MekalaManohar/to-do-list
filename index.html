@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo List</title>
+</head>
+<body>
+  <div class="parent-box">
+    <div class="child-box">
+      <input type="text" id="todoInput" placeholder="Enter a new task...">
+      <button id="addButton">Add</button>
+      <div class="filter">
+        <button id="allButton">All</button>
+        <button id="completedButton">Completed</button>
+        <button id="uncompletedButton">Uncompleted</button>
+        <button id="clearCompletedButton">Clear Completed</button>
+        <button id="completeAllButton">Complete All</button>
+      </div>
+      <div id="tasks">
+        <!-- Tasks will be displayed here -->
+      </div>
+      <p id="totalTasks">Total tasks: 0</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
