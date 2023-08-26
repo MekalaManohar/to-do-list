@@ -28,7 +28,7 @@ function renderTasks() {
       taskElement.classList.add("completed");
     }
     taskElement.innerHTML = `
-      <input type="checkbox" class="circle-checkbox" data-index="${index}" ${
+      <input type="checkbox" class="checkbox" data-index="${index}" ${
       todo.completed ? "checked" : ""
     }>
       <span>${todo.text}</span>
